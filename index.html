@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logoipsum</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Mulish:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="center">
+      <header class="header">
+        <nav class="nav">
+          <div class="logo">
+            <a class="logo__link" href="#">
+              <img
+                class="logo__img"
+                src="./assets/svg/logo.svg"
+                alt="логотип сайта"
+              />
+            </a>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link nav__link-selected" href="#">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" class="nav__link" href="#">Features</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Blog</a>
+            </li>
+          </ul>
+          <button class="button">Get Started</button>
+        </nav>
+      </header>
+      <section class="section__business">
+        <div class="section__left">
+          <h1 class="h1">Grow your subscription business</h1>
+          <p class="text">
+            Outcome-centered products that reduce churn, optimize pricing, and
+            grow your subscription business end-to-end.
+          </p>
+          <div class="button__group-business">
+            <button class="button button-business">Get Started</button>
+            <a href="#section__plan">
+              <button class="button__down">
+                <img
+                  src="./assets/svg/down arrow.svg"
+                  alt="кнопка прокрутки вниз"
+                />
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="section__right">
+          <img
+            class="section__right-img"
+            src="./assets/png/hero.png"
+            alt="на картине изображен парень на скейтборде"
+          />
+        </div>
+      </section>
+      <section class="section__logos">
+        <ul class="logos__list">
+          <li class="logo__item">
+            <a href="#">
+              <img src="./assets/svg/logo1.svg" alt="" />
+            </a>
+          </li>
+          <li class="logo__item">
+            <a href="#">
+              <img src="./assets/svg/logo2.svg" alt="" />
+            </a>
+          </li>
+          <li class="logo__item">
+            <a href="#">
+              <img src="./assets/svg/logo3.svg" alt="" />
+            </a>
+          </li>
+          <li class="logo__item">
+            <a href="#">
+              <img src="./assets/svg/logo4.svg" alt="" />
+            </a>
+          </li>
+          <li class="logo__item">
+            <a href="#">
+              <img src="./assets/svg/logo5.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="section__index">
+        <div class="section__left">
+          <img
+            class="section__left-img"
+            src="./assets/png/hero2.png"
+            alt="мальчик с калькулятором"
+          />
+        </div>
+        <div class="section__right">
+          <h3 class="h3">Subscription index</h3>
+          <p class="text text-index">
+            A daily dataset to keep you up to date on subscription market trends
+            and what's happening in your vertical.
+          </p>
+          <a class="link" href="#">Learn more</a>
+        </div>
+      </section>
+      <section class="section__metrics">
+        <div class="section__left">
+          <h3 class="h3 h3-metrics">In-depth metrics</h3>
+          <p class="text text-index">
+            Accurate, real-time reporting at your fingertips. Getting data has
+            never been easier.
+          </p>
+          <a class="link" href="#">Learn more</a>
+        </div>
+        <div>
+          <img src="./assets/png/hero3.png" alt="мальчик смотрит на метрики" />
+        </div>
+      </section>
+      <section class="section__audit">
+        <div class="card__audit">
+          <img
+            class="img__audit-card"
+            src="./assets/png/card.png"
+            alt="на картинке изображена карта"
+          />
+          <h4 class="h4">Benchmarks</h4>
+          <p class="text__audit">
+            See how you stack up against comparable companies in similar stages.
+          </p>
+        </div>
+        <div class="card__audit">
+          <img
+            class="img__audit-calculator"
+            src="./assets/png/calculator.png"
+            alt="на картинке изображен калькулятор"
+          />
+          <h4 class="h4 h4__audit">Pricing Audit</h4>
+          <p class="text__audit">
+            Benchmark the health of your monetization and pricing strategy.
+          </p>
+        </div>
+        <div class="card__audit">
+          <img
+            class="img__audit-camera"
+            src="./assets/png/camera.png"
+            alt="на картинке изображена камера"
+          />
+          <h4 class="h4">Retention Audit</h4>
+          <p class="text__audit">
+            Audit where revenue leakage exists and where you can increase
+            retention.
+          </p>
+        </div>
+      </section>
+      <section id="section__plan">
+        <div>
+          <h2 class="h2">Get the right plan for future product.</h2>
+        </div>
+        <div class="form-group">
+          <label>
+            <input
+              checked
+              name="input"
+              type="radio"
+              value="nedzen"
+              class="real-radio"
+            />
+            <span class="custom-radio">Yearly</span>
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            <input name="input" type="radio" value="dzen" class="real-radio" />
+            <span class="custom-radio custom-radio-right">Monthly</span>
+          </label>
+        </div>
+      </section>
+      <section class="section__price">
+        <div class="price__card">
+          <span class="title__price">Starter</span>
+          <span class="price">Free</span>
+          <span class="text__price">1 Website</span>
+          <span class="text__price">5 GB Hosting</span>
+          <span class="text__price">Limited Support</span>
+          <button class="button__price">Get Started</button>
+        </div>
+        <div class="price__card price__card-middle">
+          <span class="title__price title__price-middle">Premium</span>
+          <span class="price price-middle">$29/month</span>
+          <span class="text__price text__price-middle">10 Website</span>
+          <span class="text__price text__price-middle">15 GB Hosting</span>
+          <span class="text__price text__price-middle">Premium Support</span>
+          <button class="button__price button__price-middle">
+            Get Started
+          </button>
+        </div>
+        <div class="price__card">
+          <span class="title__price">Enterprise</span>
+          <span class="price">$49/month</span>
+          <span class="text__price">Unlimited Website</span>
+          <span class="text__price">50 GB Hosting</span>
+          <span class="text__price">Premium Support</span>
+          <button class="button__price">Get Started</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
